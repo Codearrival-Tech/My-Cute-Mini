@@ -2,7 +2,7 @@ import { useState, useRef, type DragEvent, type ChangeEvent } from "react";
 import { useForm, Controller, type SubmitHandler } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { motion, AnimatePresence, useInView } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   Star,
   CheckCircle,
